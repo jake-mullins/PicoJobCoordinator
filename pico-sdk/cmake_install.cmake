@@ -1,4 +1,4 @@
-# Install script for directory: /opt/pico-sdk
+# Install script for directory: /home/jake/pico-sdk
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/jake/serverless/pico-sdk/tools/cmake_install.cmake")
-  include("/home/jake/serverless/pico-sdk/src/cmake_install.cmake")
-  include("/home/jake/serverless/pico-sdk/docs/cmake_install.cmake")
+  include("/home/jake/PicoJobCoordinator/pico-sdk/tools/cmake_install.cmake")
+  include("/home/jake/PicoJobCoordinator/pico-sdk/src/cmake_install.cmake")
+  include("/home/jake/PicoJobCoordinator/pico-sdk/docs/cmake_install.cmake")
 
 endif()
 

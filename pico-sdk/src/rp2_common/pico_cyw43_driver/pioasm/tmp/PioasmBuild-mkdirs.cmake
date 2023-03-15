@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "/opt/pico-sdk/tools/pioasm"
-  "/home/jake/serverless/pioasm"
-  "/home/jake/serverless/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm"
-  "/home/jake/serverless/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp"
-  "/home/jake/serverless/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp"
-  "/home/jake/serverless/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src"
-  "/home/jake/serverless/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp"
+  "/home/jake/pico-sdk/tools/pioasm"
+  "/home/jake/PicoJobCoordinator/pioasm"
+  "/home/jake/PicoJobCoordinator/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm"
+  "/home/jake/PicoJobCoordinator/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp"
+  "/home/jake/PicoJobCoordinator/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp"
+  "/home/jake/PicoJobCoordinator/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src"
+  "/home/jake/PicoJobCoordinator/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/home/jake/serverless/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/home/jake/PicoJobCoordinator/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/home/jake/serverless/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/home/jake/PicoJobCoordinator/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp${cfgdir}") # cfgdir has leading slash
 endif()

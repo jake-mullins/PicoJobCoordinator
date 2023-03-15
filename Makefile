@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jake/serverless
+CMAKE_SOURCE_DIR = /home/jake/PicoJobCoordinator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jake/serverless
+CMAKE_BINARY_DIR = /home/jake/PicoJobCoordinator
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jake/serverless/CMakeFiles /home/jake/serverless//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jake/PicoJobCoordinator/CMakeFiles /home/jake/PicoJobCoordinator//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jake/serverless/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jake/PicoJobCoordinator/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -272,2317 +272,2317 @@ cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
 .PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast
 
-opt/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: opt/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
+home/jake/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: home/jake/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
 
 # target to build an object file
-opt/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+home/jake/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 
-opt/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: opt/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i
-
-# target to preprocess a source file
-opt/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
-
-opt/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: opt/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s
-
-# target to generate assembly for a file
-opt/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
-
-opt/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj: opt/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj
-
-# target to build an object file
-opt/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-
-opt/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: opt/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i
+home/jake/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: home/jake/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i
 
 # target to preprocess a source file
-opt/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+home/jake/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
 
-opt/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: opt/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s
+home/jake/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: home/jake/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s
 
 # target to generate assembly for a file
-opt/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+home/jake/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
 
-opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj: opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj
+home/jake/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj: home/jake/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj
 
 # target to build an object file
-opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+home/jake/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
 
-opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i
+home/jake/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: home/jake/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i
 
 # target to preprocess a source file
-opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+home/jake/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
 
-opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s: opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s
+home/jake/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: home/jake/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s
 
 # target to generate assembly for a file
-opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+home/jake/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 
-opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj: opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj
+home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj: home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj
 
 # target to build an object file
-opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
 
-opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i
+home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i
 
 # target to preprocess a source file
-opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
 
-opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s
+home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s: home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s
 
 # target to generate assembly for a file
-opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
 
-opt/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj: opt/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj
+home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj: home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj
 
 # target to build an object file
-opt/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
 
-opt/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: opt/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i
+home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i
 
 # target to preprocess a source file
-opt/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 
-opt/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: opt/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s
+home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s
 
 # target to generate assembly for a file
-opt/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 
-opt/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj: opt/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj
+home/jake/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj: home/jake/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj
 
 # target to build an object file
-opt/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+home/jake/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
 
-opt/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: opt/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i
+home/jake/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: home/jake/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i
 
 # target to preprocess a source file
-opt/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+home/jake/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
 
-opt/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: opt/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s
+home/jake/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: home/jake/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s
 
 # target to generate assembly for a file
-opt/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+home/jake/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 
-opt/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj: opt/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj
+home/jake/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj: home/jake/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj
 
 # target to build an object file
-opt/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+home/jake/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
 
-opt/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: opt/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i
+home/jake/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: home/jake/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i
 
 # target to preprocess a source file
-opt/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+home/jake/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
 
-opt/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: opt/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s
+home/jake/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: home/jake/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s
 
 # target to generate assembly for a file
-opt/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+home/jake/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
 
-opt/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj: opt/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj
+home/jake/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj: home/jake/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj
 
 # target to build an object file
-opt/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+home/jake/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
 
-opt/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i: opt/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i
+home/jake/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: home/jake/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i
 
 # target to preprocess a source file
-opt/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+home/jake/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
 
-opt/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s: opt/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s
+home/jake/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: home/jake/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s
 
 # target to generate assembly for a file
-opt/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+home/jake/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 
-opt/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj: opt/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj
+home/jake/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj: home/jake/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj
 
 # target to build an object file
-opt/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+home/jake/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
 
-opt/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i: opt/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i
+home/jake/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i: home/jake/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i
 
 # target to preprocess a source file
-opt/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+home/jake/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
 
-opt/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s: opt/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s
+home/jake/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s: home/jake/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s
 
 # target to generate assembly for a file
-opt/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+home/jake/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 
-opt/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj: opt/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj
+home/jake/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj: home/jake/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj
 
 # target to build an object file
-opt/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+home/jake/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
 
-opt/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: opt/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i
+home/jake/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i: home/jake/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i
 
 # target to preprocess a source file
-opt/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+home/jake/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
 
-opt/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: opt/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s
+home/jake/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s: home/jake/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s
 
 # target to generate assembly for a file
-opt/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+home/jake/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
 
-opt/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj: opt/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj
+home/jake/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj: home/jake/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj
 
 # target to build an object file
-opt/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+home/jake/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
 
-opt/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: opt/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i
+home/jake/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: home/jake/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i
 
 # target to preprocess a source file
-opt/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+home/jake/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 
-opt/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: opt/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s
+home/jake/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: home/jake/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s
 
 # target to generate assembly for a file
-opt/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+home/jake/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 
-opt/pico-sdk/lib/tinyusb/src/class/video/video_device.obj: opt/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/video/video_device.obj
+home/jake/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj: home/jake/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj
 
 # target to build an object file
-opt/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+home/jake/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
 
-opt/pico-sdk/lib/tinyusb/src/class/video/video_device.i: opt/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/video/video_device.i
+home/jake/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: home/jake/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i
 
 # target to preprocess a source file
-opt/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+home/jake/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
 
-opt/pico-sdk/lib/tinyusb/src/class/video/video_device.s: opt/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/video/video_device.s
+home/jake/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: home/jake/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s
 
 # target to generate assembly for a file
-opt/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
-.PHONY : opt/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+home/jake/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
 
-opt/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj: opt/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-.PHONY : opt/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj
+home/jake/pico-sdk/lib/tinyusb/src/class/video/video_device.obj: home/jake/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/video/video_device.obj
 
 # target to build an object file
-opt/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-.PHONY : opt/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+home/jake/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
 
-opt/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: opt/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
-.PHONY : opt/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i
+home/jake/pico-sdk/lib/tinyusb/src/class/video/video_device.i: home/jake/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/video/video_device.i
 
 # target to preprocess a source file
-opt/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
-.PHONY : opt/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+home/jake/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
 
-opt/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: opt/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
-.PHONY : opt/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s
+home/jake/pico-sdk/lib/tinyusb/src/class/video/video_device.s: home/jake/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/video/video_device.s
 
 # target to generate assembly for a file
-opt/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
-.PHONY : opt/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+home/jake/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
 
-opt/pico-sdk/lib/tinyusb/src/device/usbd.obj: opt/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-.PHONY : opt/pico-sdk/lib/tinyusb/src/device/usbd.obj
+home/jake/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj: home/jake/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj
 
 # target to build an object file
-opt/pico-sdk/lib/tinyusb/src/device/usbd.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-.PHONY : opt/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+home/jake/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 
-opt/pico-sdk/lib/tinyusb/src/device/usbd.i: opt/pico-sdk/lib/tinyusb/src/device/usbd.c.i
-.PHONY : opt/pico-sdk/lib/tinyusb/src/device/usbd.i
+home/jake/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: home/jake/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i
 
 # target to preprocess a source file
-opt/pico-sdk/lib/tinyusb/src/device/usbd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/device/usbd.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/device/usbd.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/device/usbd.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/device/usbd.c.i
-.PHONY : opt/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+home/jake/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
 
-opt/pico-sdk/lib/tinyusb/src/device/usbd.s: opt/pico-sdk/lib/tinyusb/src/device/usbd.c.s
-.PHONY : opt/pico-sdk/lib/tinyusb/src/device/usbd.s
+home/jake/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: home/jake/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s
 
 # target to generate assembly for a file
-opt/pico-sdk/lib/tinyusb/src/device/usbd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/device/usbd.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/device/usbd.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/device/usbd.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/device/usbd.c.s
-.PHONY : opt/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+home/jake/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
 
-opt/pico-sdk/lib/tinyusb/src/device/usbd_control.obj: opt/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-.PHONY : opt/pico-sdk/lib/tinyusb/src/device/usbd_control.obj
+home/jake/pico-sdk/lib/tinyusb/src/device/usbd.obj: home/jake/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/device/usbd.obj
 
 # target to build an object file
-opt/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-.PHONY : opt/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+home/jake/pico-sdk/lib/tinyusb/src/device/usbd.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
 
-opt/pico-sdk/lib/tinyusb/src/device/usbd_control.i: opt/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
-.PHONY : opt/pico-sdk/lib/tinyusb/src/device/usbd_control.i
+home/jake/pico-sdk/lib/tinyusb/src/device/usbd.i: home/jake/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/device/usbd.i
 
 # target to preprocess a source file
-opt/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
-.PHONY : opt/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+home/jake/pico-sdk/lib/tinyusb/src/device/usbd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/device/usbd.c.i
 
-opt/pico-sdk/lib/tinyusb/src/device/usbd_control.s: opt/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
-.PHONY : opt/pico-sdk/lib/tinyusb/src/device/usbd_control.s
+home/jake/pico-sdk/lib/tinyusb/src/device/usbd.s: home/jake/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/device/usbd.s
 
 # target to generate assembly for a file
-opt/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
-.PHONY : opt/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+home/jake/pico-sdk/lib/tinyusb/src/device/usbd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 
-opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj: opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-.PHONY : opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj
+home/jake/pico-sdk/lib/tinyusb/src/device/usbd_control.obj: home/jake/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/device/usbd_control.obj
 
 # target to build an object file
-opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-.PHONY : opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+home/jake/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
 
-opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
-.PHONY : opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i
+home/jake/pico-sdk/lib/tinyusb/src/device/usbd_control.i: home/jake/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/device/usbd_control.i
 
 # target to preprocess a source file
-opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
-.PHONY : opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+home/jake/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
 
-opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s: opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
-.PHONY : opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s
+home/jake/pico-sdk/lib/tinyusb/src/device/usbd_control.s: home/jake/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/device/usbd_control.s
 
 # target to generate assembly for a file
-opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
-.PHONY : opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+home/jake/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
 
-opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj: opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-.PHONY : opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj
+home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj: home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj
 
 # target to build an object file
-opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-.PHONY : opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
 
-opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
-.PHONY : opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i
+home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i
 
 # target to preprocess a source file
-opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
-.PHONY : opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 
-opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s: opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
-.PHONY : opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s
+home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s: home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s
 
 # target to generate assembly for a file
-opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
-.PHONY : opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 
-opt/pico-sdk/lib/tinyusb/src/tusb.obj: opt/pico-sdk/lib/tinyusb/src/tusb.c.obj
-.PHONY : opt/pico-sdk/lib/tinyusb/src/tusb.obj
+home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj: home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj
 
 # target to build an object file
-opt/pico-sdk/lib/tinyusb/src/tusb.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/tusb.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/tusb.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/tusb.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/tusb.c.obj
-.PHONY : opt/pico-sdk/lib/tinyusb/src/tusb.c.obj
+home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
 
-opt/pico-sdk/lib/tinyusb/src/tusb.i: opt/pico-sdk/lib/tinyusb/src/tusb.c.i
-.PHONY : opt/pico-sdk/lib/tinyusb/src/tusb.i
+home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i
 
 # target to preprocess a source file
-opt/pico-sdk/lib/tinyusb/src/tusb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/tusb.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/tusb.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/tusb.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/tusb.c.i
-.PHONY : opt/pico-sdk/lib/tinyusb/src/tusb.c.i
+home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 
-opt/pico-sdk/lib/tinyusb/src/tusb.s: opt/pico-sdk/lib/tinyusb/src/tusb.c.s
-.PHONY : opt/pico-sdk/lib/tinyusb/src/tusb.s
+home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s: home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s
 
 # target to generate assembly for a file
-opt/pico-sdk/lib/tinyusb/src/tusb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/lib/tinyusb/src/tusb.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/lib/tinyusb/src/tusb.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/lib/tinyusb/src/tusb.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/lib/tinyusb/src/tusb.c.s
-.PHONY : opt/pico-sdk/lib/tinyusb/src/tusb.c.s
+home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 
-opt/pico-sdk/src/common/pico_sync/critical_section.obj: opt/pico-sdk/src/common/pico_sync/critical_section.c.obj
-.PHONY : opt/pico-sdk/src/common/pico_sync/critical_section.obj
+home/jake/pico-sdk/lib/tinyusb/src/tusb.obj: home/jake/pico-sdk/lib/tinyusb/src/tusb.c.obj
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/tusb.obj
 
 # target to build an object file
-opt/pico-sdk/src/common/pico_sync/critical_section.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/common/pico_sync/critical_section.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/common/pico_sync/critical_section.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/common/pico_sync/critical_section.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/common/pico_sync/critical_section.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/common/pico_sync/critical_section.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/common/pico_sync/critical_section.c.obj
-.PHONY : opt/pico-sdk/src/common/pico_sync/critical_section.c.obj
+home/jake/pico-sdk/lib/tinyusb/src/tusb.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/tusb.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/tusb.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/tusb.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/tusb.c.obj
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/tusb.c.obj
 
-opt/pico-sdk/src/common/pico_sync/critical_section.i: opt/pico-sdk/src/common/pico_sync/critical_section.c.i
-.PHONY : opt/pico-sdk/src/common/pico_sync/critical_section.i
+home/jake/pico-sdk/lib/tinyusb/src/tusb.i: home/jake/pico-sdk/lib/tinyusb/src/tusb.c.i
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/tusb.i
 
 # target to preprocess a source file
-opt/pico-sdk/src/common/pico_sync/critical_section.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/common/pico_sync/critical_section.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/common/pico_sync/critical_section.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/common/pico_sync/critical_section.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/common/pico_sync/critical_section.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/common/pico_sync/critical_section.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/common/pico_sync/critical_section.c.i
-.PHONY : opt/pico-sdk/src/common/pico_sync/critical_section.c.i
+home/jake/pico-sdk/lib/tinyusb/src/tusb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/tusb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/tusb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/tusb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/tusb.c.i
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/tusb.c.i
 
-opt/pico-sdk/src/common/pico_sync/critical_section.s: opt/pico-sdk/src/common/pico_sync/critical_section.c.s
-.PHONY : opt/pico-sdk/src/common/pico_sync/critical_section.s
+home/jake/pico-sdk/lib/tinyusb/src/tusb.s: home/jake/pico-sdk/lib/tinyusb/src/tusb.c.s
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/tusb.s
 
 # target to generate assembly for a file
-opt/pico-sdk/src/common/pico_sync/critical_section.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/common/pico_sync/critical_section.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/common/pico_sync/critical_section.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/common/pico_sync/critical_section.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/common/pico_sync/critical_section.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/common/pico_sync/critical_section.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/common/pico_sync/critical_section.c.s
-.PHONY : opt/pico-sdk/src/common/pico_sync/critical_section.c.s
+home/jake/pico-sdk/lib/tinyusb/src/tusb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/lib/tinyusb/src/tusb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/lib/tinyusb/src/tusb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/lib/tinyusb/src/tusb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/lib/tinyusb/src/tusb.c.s
+.PHONY : home/jake/pico-sdk/lib/tinyusb/src/tusb.c.s
 
-opt/pico-sdk/src/common/pico_sync/lock_core.obj: opt/pico-sdk/src/common/pico_sync/lock_core.c.obj
-.PHONY : opt/pico-sdk/src/common/pico_sync/lock_core.obj
+home/jake/pico-sdk/src/common/pico_sync/critical_section.obj: home/jake/pico-sdk/src/common/pico_sync/critical_section.c.obj
+.PHONY : home/jake/pico-sdk/src/common/pico_sync/critical_section.obj
 
 # target to build an object file
-opt/pico-sdk/src/common/pico_sync/lock_core.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/common/pico_sync/lock_core.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/common/pico_sync/lock_core.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/common/pico_sync/lock_core.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/common/pico_sync/lock_core.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/common/pico_sync/lock_core.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/common/pico_sync/lock_core.c.obj
-.PHONY : opt/pico-sdk/src/common/pico_sync/lock_core.c.obj
+home/jake/pico-sdk/src/common/pico_sync/critical_section.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/common/pico_sync/critical_section.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/common/pico_sync/critical_section.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/common/pico_sync/critical_section.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/common/pico_sync/critical_section.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/common/pico_sync/critical_section.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/common/pico_sync/critical_section.c.obj
+.PHONY : home/jake/pico-sdk/src/common/pico_sync/critical_section.c.obj
 
-opt/pico-sdk/src/common/pico_sync/lock_core.i: opt/pico-sdk/src/common/pico_sync/lock_core.c.i
-.PHONY : opt/pico-sdk/src/common/pico_sync/lock_core.i
+home/jake/pico-sdk/src/common/pico_sync/critical_section.i: home/jake/pico-sdk/src/common/pico_sync/critical_section.c.i
+.PHONY : home/jake/pico-sdk/src/common/pico_sync/critical_section.i
 
 # target to preprocess a source file
-opt/pico-sdk/src/common/pico_sync/lock_core.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/common/pico_sync/lock_core.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/common/pico_sync/lock_core.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/common/pico_sync/lock_core.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/common/pico_sync/lock_core.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/common/pico_sync/lock_core.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/common/pico_sync/lock_core.c.i
-.PHONY : opt/pico-sdk/src/common/pico_sync/lock_core.c.i
+home/jake/pico-sdk/src/common/pico_sync/critical_section.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/common/pico_sync/critical_section.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/common/pico_sync/critical_section.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/common/pico_sync/critical_section.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/common/pico_sync/critical_section.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/common/pico_sync/critical_section.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/common/pico_sync/critical_section.c.i
+.PHONY : home/jake/pico-sdk/src/common/pico_sync/critical_section.c.i
 
-opt/pico-sdk/src/common/pico_sync/lock_core.s: opt/pico-sdk/src/common/pico_sync/lock_core.c.s
-.PHONY : opt/pico-sdk/src/common/pico_sync/lock_core.s
+home/jake/pico-sdk/src/common/pico_sync/critical_section.s: home/jake/pico-sdk/src/common/pico_sync/critical_section.c.s
+.PHONY : home/jake/pico-sdk/src/common/pico_sync/critical_section.s
 
 # target to generate assembly for a file
-opt/pico-sdk/src/common/pico_sync/lock_core.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/common/pico_sync/lock_core.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/common/pico_sync/lock_core.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/common/pico_sync/lock_core.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/common/pico_sync/lock_core.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/common/pico_sync/lock_core.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/common/pico_sync/lock_core.c.s
-.PHONY : opt/pico-sdk/src/common/pico_sync/lock_core.c.s
+home/jake/pico-sdk/src/common/pico_sync/critical_section.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/common/pico_sync/critical_section.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/common/pico_sync/critical_section.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/common/pico_sync/critical_section.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/common/pico_sync/critical_section.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/common/pico_sync/critical_section.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/common/pico_sync/critical_section.c.s
+.PHONY : home/jake/pico-sdk/src/common/pico_sync/critical_section.c.s
 
-opt/pico-sdk/src/common/pico_sync/mutex.obj: opt/pico-sdk/src/common/pico_sync/mutex.c.obj
-.PHONY : opt/pico-sdk/src/common/pico_sync/mutex.obj
+home/jake/pico-sdk/src/common/pico_sync/lock_core.obj: home/jake/pico-sdk/src/common/pico_sync/lock_core.c.obj
+.PHONY : home/jake/pico-sdk/src/common/pico_sync/lock_core.obj
 
 # target to build an object file
-opt/pico-sdk/src/common/pico_sync/mutex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/common/pico_sync/mutex.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/common/pico_sync/mutex.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/common/pico_sync/mutex.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/common/pico_sync/mutex.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/common/pico_sync/mutex.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/common/pico_sync/mutex.c.obj
-.PHONY : opt/pico-sdk/src/common/pico_sync/mutex.c.obj
+home/jake/pico-sdk/src/common/pico_sync/lock_core.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/common/pico_sync/lock_core.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/common/pico_sync/lock_core.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/common/pico_sync/lock_core.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/common/pico_sync/lock_core.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/common/pico_sync/lock_core.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/common/pico_sync/lock_core.c.obj
+.PHONY : home/jake/pico-sdk/src/common/pico_sync/lock_core.c.obj
 
-opt/pico-sdk/src/common/pico_sync/mutex.i: opt/pico-sdk/src/common/pico_sync/mutex.c.i
-.PHONY : opt/pico-sdk/src/common/pico_sync/mutex.i
+home/jake/pico-sdk/src/common/pico_sync/lock_core.i: home/jake/pico-sdk/src/common/pico_sync/lock_core.c.i
+.PHONY : home/jake/pico-sdk/src/common/pico_sync/lock_core.i
 
 # target to preprocess a source file
-opt/pico-sdk/src/common/pico_sync/mutex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/common/pico_sync/mutex.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/common/pico_sync/mutex.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/common/pico_sync/mutex.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/common/pico_sync/mutex.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/common/pico_sync/mutex.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/common/pico_sync/mutex.c.i
-.PHONY : opt/pico-sdk/src/common/pico_sync/mutex.c.i
+home/jake/pico-sdk/src/common/pico_sync/lock_core.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/common/pico_sync/lock_core.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/common/pico_sync/lock_core.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/common/pico_sync/lock_core.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/common/pico_sync/lock_core.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/common/pico_sync/lock_core.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/common/pico_sync/lock_core.c.i
+.PHONY : home/jake/pico-sdk/src/common/pico_sync/lock_core.c.i
 
-opt/pico-sdk/src/common/pico_sync/mutex.s: opt/pico-sdk/src/common/pico_sync/mutex.c.s
-.PHONY : opt/pico-sdk/src/common/pico_sync/mutex.s
+home/jake/pico-sdk/src/common/pico_sync/lock_core.s: home/jake/pico-sdk/src/common/pico_sync/lock_core.c.s
+.PHONY : home/jake/pico-sdk/src/common/pico_sync/lock_core.s
 
 # target to generate assembly for a file
-opt/pico-sdk/src/common/pico_sync/mutex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/common/pico_sync/mutex.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/common/pico_sync/mutex.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/common/pico_sync/mutex.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/common/pico_sync/mutex.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/common/pico_sync/mutex.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/common/pico_sync/mutex.c.s
-.PHONY : opt/pico-sdk/src/common/pico_sync/mutex.c.s
+home/jake/pico-sdk/src/common/pico_sync/lock_core.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/common/pico_sync/lock_core.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/common/pico_sync/lock_core.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/common/pico_sync/lock_core.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/common/pico_sync/lock_core.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/common/pico_sync/lock_core.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/common/pico_sync/lock_core.c.s
+.PHONY : home/jake/pico-sdk/src/common/pico_sync/lock_core.c.s
 
-opt/pico-sdk/src/common/pico_sync/sem.obj: opt/pico-sdk/src/common/pico_sync/sem.c.obj
-.PHONY : opt/pico-sdk/src/common/pico_sync/sem.obj
+home/jake/pico-sdk/src/common/pico_sync/mutex.obj: home/jake/pico-sdk/src/common/pico_sync/mutex.c.obj
+.PHONY : home/jake/pico-sdk/src/common/pico_sync/mutex.obj
 
 # target to build an object file
-opt/pico-sdk/src/common/pico_sync/sem.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/common/pico_sync/sem.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/common/pico_sync/sem.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/common/pico_sync/sem.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/common/pico_sync/sem.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/common/pico_sync/sem.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/common/pico_sync/sem.c.obj
-.PHONY : opt/pico-sdk/src/common/pico_sync/sem.c.obj
+home/jake/pico-sdk/src/common/pico_sync/mutex.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/common/pico_sync/mutex.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/common/pico_sync/mutex.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/common/pico_sync/mutex.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/common/pico_sync/mutex.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/common/pico_sync/mutex.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/common/pico_sync/mutex.c.obj
+.PHONY : home/jake/pico-sdk/src/common/pico_sync/mutex.c.obj
 
-opt/pico-sdk/src/common/pico_sync/sem.i: opt/pico-sdk/src/common/pico_sync/sem.c.i
-.PHONY : opt/pico-sdk/src/common/pico_sync/sem.i
+home/jake/pico-sdk/src/common/pico_sync/mutex.i: home/jake/pico-sdk/src/common/pico_sync/mutex.c.i
+.PHONY : home/jake/pico-sdk/src/common/pico_sync/mutex.i
 
 # target to preprocess a source file
-opt/pico-sdk/src/common/pico_sync/sem.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/common/pico_sync/sem.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/common/pico_sync/sem.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/common/pico_sync/sem.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/common/pico_sync/sem.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/common/pico_sync/sem.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/common/pico_sync/sem.c.i
-.PHONY : opt/pico-sdk/src/common/pico_sync/sem.c.i
+home/jake/pico-sdk/src/common/pico_sync/mutex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/common/pico_sync/mutex.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/common/pico_sync/mutex.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/common/pico_sync/mutex.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/common/pico_sync/mutex.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/common/pico_sync/mutex.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/common/pico_sync/mutex.c.i
+.PHONY : home/jake/pico-sdk/src/common/pico_sync/mutex.c.i
 
-opt/pico-sdk/src/common/pico_sync/sem.s: opt/pico-sdk/src/common/pico_sync/sem.c.s
-.PHONY : opt/pico-sdk/src/common/pico_sync/sem.s
+home/jake/pico-sdk/src/common/pico_sync/mutex.s: home/jake/pico-sdk/src/common/pico_sync/mutex.c.s
+.PHONY : home/jake/pico-sdk/src/common/pico_sync/mutex.s
 
 # target to generate assembly for a file
-opt/pico-sdk/src/common/pico_sync/sem.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/common/pico_sync/sem.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/common/pico_sync/sem.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/common/pico_sync/sem.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/common/pico_sync/sem.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/common/pico_sync/sem.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/common/pico_sync/sem.c.s
-.PHONY : opt/pico-sdk/src/common/pico_sync/sem.c.s
+home/jake/pico-sdk/src/common/pico_sync/mutex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/common/pico_sync/mutex.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/common/pico_sync/mutex.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/common/pico_sync/mutex.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/common/pico_sync/mutex.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/common/pico_sync/mutex.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/common/pico_sync/mutex.c.s
+.PHONY : home/jake/pico-sdk/src/common/pico_sync/mutex.c.s
 
-opt/pico-sdk/src/common/pico_time/time.obj: opt/pico-sdk/src/common/pico_time/time.c.obj
-.PHONY : opt/pico-sdk/src/common/pico_time/time.obj
+home/jake/pico-sdk/src/common/pico_sync/sem.obj: home/jake/pico-sdk/src/common/pico_sync/sem.c.obj
+.PHONY : home/jake/pico-sdk/src/common/pico_sync/sem.obj
 
 # target to build an object file
-opt/pico-sdk/src/common/pico_time/time.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/common/pico_time/time.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/common/pico_time/time.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/common/pico_time/time.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/common/pico_time/time.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/common/pico_time/time.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/common/pico_time/time.c.obj
-.PHONY : opt/pico-sdk/src/common/pico_time/time.c.obj
+home/jake/pico-sdk/src/common/pico_sync/sem.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/common/pico_sync/sem.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/common/pico_sync/sem.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/common/pico_sync/sem.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/common/pico_sync/sem.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/common/pico_sync/sem.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/common/pico_sync/sem.c.obj
+.PHONY : home/jake/pico-sdk/src/common/pico_sync/sem.c.obj
 
-opt/pico-sdk/src/common/pico_time/time.i: opt/pico-sdk/src/common/pico_time/time.c.i
-.PHONY : opt/pico-sdk/src/common/pico_time/time.i
+home/jake/pico-sdk/src/common/pico_sync/sem.i: home/jake/pico-sdk/src/common/pico_sync/sem.c.i
+.PHONY : home/jake/pico-sdk/src/common/pico_sync/sem.i
 
 # target to preprocess a source file
-opt/pico-sdk/src/common/pico_time/time.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/common/pico_time/time.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/common/pico_time/time.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/common/pico_time/time.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/common/pico_time/time.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/common/pico_time/time.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/common/pico_time/time.c.i
-.PHONY : opt/pico-sdk/src/common/pico_time/time.c.i
+home/jake/pico-sdk/src/common/pico_sync/sem.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/common/pico_sync/sem.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/common/pico_sync/sem.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/common/pico_sync/sem.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/common/pico_sync/sem.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/common/pico_sync/sem.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/common/pico_sync/sem.c.i
+.PHONY : home/jake/pico-sdk/src/common/pico_sync/sem.c.i
 
-opt/pico-sdk/src/common/pico_time/time.s: opt/pico-sdk/src/common/pico_time/time.c.s
-.PHONY : opt/pico-sdk/src/common/pico_time/time.s
+home/jake/pico-sdk/src/common/pico_sync/sem.s: home/jake/pico-sdk/src/common/pico_sync/sem.c.s
+.PHONY : home/jake/pico-sdk/src/common/pico_sync/sem.s
 
 # target to generate assembly for a file
-opt/pico-sdk/src/common/pico_time/time.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/common/pico_time/time.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/common/pico_time/time.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/common/pico_time/time.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/common/pico_time/time.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/common/pico_time/time.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/common/pico_time/time.c.s
-.PHONY : opt/pico-sdk/src/common/pico_time/time.c.s
+home/jake/pico-sdk/src/common/pico_sync/sem.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/common/pico_sync/sem.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/common/pico_sync/sem.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/common/pico_sync/sem.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/common/pico_sync/sem.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/common/pico_sync/sem.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/common/pico_sync/sem.c.s
+.PHONY : home/jake/pico-sdk/src/common/pico_sync/sem.c.s
 
-opt/pico-sdk/src/common/pico_time/timeout_helper.obj: opt/pico-sdk/src/common/pico_time/timeout_helper.c.obj
-.PHONY : opt/pico-sdk/src/common/pico_time/timeout_helper.obj
+home/jake/pico-sdk/src/common/pico_time/time.obj: home/jake/pico-sdk/src/common/pico_time/time.c.obj
+.PHONY : home/jake/pico-sdk/src/common/pico_time/time.obj
 
 # target to build an object file
-opt/pico-sdk/src/common/pico_time/timeout_helper.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/common/pico_time/timeout_helper.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/common/pico_time/timeout_helper.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/common/pico_time/timeout_helper.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/common/pico_time/timeout_helper.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/common/pico_time/timeout_helper.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/common/pico_time/timeout_helper.c.obj
-.PHONY : opt/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+home/jake/pico-sdk/src/common/pico_time/time.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/common/pico_time/time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/common/pico_time/time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/common/pico_time/time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/common/pico_time/time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/common/pico_time/time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/common/pico_time/time.c.obj
+.PHONY : home/jake/pico-sdk/src/common/pico_time/time.c.obj
 
-opt/pico-sdk/src/common/pico_time/timeout_helper.i: opt/pico-sdk/src/common/pico_time/timeout_helper.c.i
-.PHONY : opt/pico-sdk/src/common/pico_time/timeout_helper.i
+home/jake/pico-sdk/src/common/pico_time/time.i: home/jake/pico-sdk/src/common/pico_time/time.c.i
+.PHONY : home/jake/pico-sdk/src/common/pico_time/time.i
 
 # target to preprocess a source file
-opt/pico-sdk/src/common/pico_time/timeout_helper.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/common/pico_time/timeout_helper.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/common/pico_time/timeout_helper.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/common/pico_time/timeout_helper.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/common/pico_time/timeout_helper.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/common/pico_time/timeout_helper.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/common/pico_time/timeout_helper.c.i
-.PHONY : opt/pico-sdk/src/common/pico_time/timeout_helper.c.i
+home/jake/pico-sdk/src/common/pico_time/time.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/common/pico_time/time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/common/pico_time/time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/common/pico_time/time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/common/pico_time/time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/common/pico_time/time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/common/pico_time/time.c.i
+.PHONY : home/jake/pico-sdk/src/common/pico_time/time.c.i
 
-opt/pico-sdk/src/common/pico_time/timeout_helper.s: opt/pico-sdk/src/common/pico_time/timeout_helper.c.s
-.PHONY : opt/pico-sdk/src/common/pico_time/timeout_helper.s
+home/jake/pico-sdk/src/common/pico_time/time.s: home/jake/pico-sdk/src/common/pico_time/time.c.s
+.PHONY : home/jake/pico-sdk/src/common/pico_time/time.s
 
 # target to generate assembly for a file
-opt/pico-sdk/src/common/pico_time/timeout_helper.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/common/pico_time/timeout_helper.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/common/pico_time/timeout_helper.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/common/pico_time/timeout_helper.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/common/pico_time/timeout_helper.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/common/pico_time/timeout_helper.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/common/pico_time/timeout_helper.c.s
-.PHONY : opt/pico-sdk/src/common/pico_time/timeout_helper.c.s
+home/jake/pico-sdk/src/common/pico_time/time.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/common/pico_time/time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/common/pico_time/time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/common/pico_time/time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/common/pico_time/time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/common/pico_time/time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/common/pico_time/time.c.s
+.PHONY : home/jake/pico-sdk/src/common/pico_time/time.c.s
 
-opt/pico-sdk/src/common/pico_util/datetime.obj: opt/pico-sdk/src/common/pico_util/datetime.c.obj
-.PHONY : opt/pico-sdk/src/common/pico_util/datetime.obj
+home/jake/pico-sdk/src/common/pico_time/timeout_helper.obj: home/jake/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+.PHONY : home/jake/pico-sdk/src/common/pico_time/timeout_helper.obj
 
 # target to build an object file
-opt/pico-sdk/src/common/pico_util/datetime.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/common/pico_util/datetime.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/common/pico_util/datetime.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/common/pico_util/datetime.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/common/pico_util/datetime.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/common/pico_util/datetime.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/common/pico_util/datetime.c.obj
-.PHONY : opt/pico-sdk/src/common/pico_util/datetime.c.obj
+home/jake/pico-sdk/src/common/pico_time/timeout_helper.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+.PHONY : home/jake/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 
-opt/pico-sdk/src/common/pico_util/datetime.i: opt/pico-sdk/src/common/pico_util/datetime.c.i
-.PHONY : opt/pico-sdk/src/common/pico_util/datetime.i
+home/jake/pico-sdk/src/common/pico_time/timeout_helper.i: home/jake/pico-sdk/src/common/pico_time/timeout_helper.c.i
+.PHONY : home/jake/pico-sdk/src/common/pico_time/timeout_helper.i
 
 # target to preprocess a source file
-opt/pico-sdk/src/common/pico_util/datetime.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/common/pico_util/datetime.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/common/pico_util/datetime.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/common/pico_util/datetime.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/common/pico_util/datetime.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/common/pico_util/datetime.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/common/pico_util/datetime.c.i
-.PHONY : opt/pico-sdk/src/common/pico_util/datetime.c.i
+home/jake/pico-sdk/src/common/pico_time/timeout_helper.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/common/pico_time/timeout_helper.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/common/pico_time/timeout_helper.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/common/pico_time/timeout_helper.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/common/pico_time/timeout_helper.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/common/pico_time/timeout_helper.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/common/pico_time/timeout_helper.c.i
+.PHONY : home/jake/pico-sdk/src/common/pico_time/timeout_helper.c.i
 
-opt/pico-sdk/src/common/pico_util/datetime.s: opt/pico-sdk/src/common/pico_util/datetime.c.s
-.PHONY : opt/pico-sdk/src/common/pico_util/datetime.s
+home/jake/pico-sdk/src/common/pico_time/timeout_helper.s: home/jake/pico-sdk/src/common/pico_time/timeout_helper.c.s
+.PHONY : home/jake/pico-sdk/src/common/pico_time/timeout_helper.s
 
 # target to generate assembly for a file
-opt/pico-sdk/src/common/pico_util/datetime.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/common/pico_util/datetime.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/common/pico_util/datetime.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/common/pico_util/datetime.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/common/pico_util/datetime.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/common/pico_util/datetime.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/common/pico_util/datetime.c.s
-.PHONY : opt/pico-sdk/src/common/pico_util/datetime.c.s
+home/jake/pico-sdk/src/common/pico_time/timeout_helper.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/common/pico_time/timeout_helper.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/common/pico_time/timeout_helper.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/common/pico_time/timeout_helper.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/common/pico_time/timeout_helper.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/common/pico_time/timeout_helper.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/common/pico_time/timeout_helper.c.s
+.PHONY : home/jake/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
-opt/pico-sdk/src/common/pico_util/pheap.obj: opt/pico-sdk/src/common/pico_util/pheap.c.obj
-.PHONY : opt/pico-sdk/src/common/pico_util/pheap.obj
+home/jake/pico-sdk/src/common/pico_util/datetime.obj: home/jake/pico-sdk/src/common/pico_util/datetime.c.obj
+.PHONY : home/jake/pico-sdk/src/common/pico_util/datetime.obj
 
 # target to build an object file
-opt/pico-sdk/src/common/pico_util/pheap.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/common/pico_util/pheap.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/common/pico_util/pheap.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/common/pico_util/pheap.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/common/pico_util/pheap.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/common/pico_util/pheap.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/common/pico_util/pheap.c.obj
-.PHONY : opt/pico-sdk/src/common/pico_util/pheap.c.obj
+home/jake/pico-sdk/src/common/pico_util/datetime.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/common/pico_util/datetime.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/common/pico_util/datetime.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/common/pico_util/datetime.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/common/pico_util/datetime.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/common/pico_util/datetime.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/common/pico_util/datetime.c.obj
+.PHONY : home/jake/pico-sdk/src/common/pico_util/datetime.c.obj
 
-opt/pico-sdk/src/common/pico_util/pheap.i: opt/pico-sdk/src/common/pico_util/pheap.c.i
-.PHONY : opt/pico-sdk/src/common/pico_util/pheap.i
+home/jake/pico-sdk/src/common/pico_util/datetime.i: home/jake/pico-sdk/src/common/pico_util/datetime.c.i
+.PHONY : home/jake/pico-sdk/src/common/pico_util/datetime.i
 
 # target to preprocess a source file
-opt/pico-sdk/src/common/pico_util/pheap.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/common/pico_util/pheap.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/common/pico_util/pheap.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/common/pico_util/pheap.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/common/pico_util/pheap.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/common/pico_util/pheap.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/common/pico_util/pheap.c.i
-.PHONY : opt/pico-sdk/src/common/pico_util/pheap.c.i
+home/jake/pico-sdk/src/common/pico_util/datetime.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/common/pico_util/datetime.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/common/pico_util/datetime.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/common/pico_util/datetime.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/common/pico_util/datetime.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/common/pico_util/datetime.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/common/pico_util/datetime.c.i
+.PHONY : home/jake/pico-sdk/src/common/pico_util/datetime.c.i
 
-opt/pico-sdk/src/common/pico_util/pheap.s: opt/pico-sdk/src/common/pico_util/pheap.c.s
-.PHONY : opt/pico-sdk/src/common/pico_util/pheap.s
+home/jake/pico-sdk/src/common/pico_util/datetime.s: home/jake/pico-sdk/src/common/pico_util/datetime.c.s
+.PHONY : home/jake/pico-sdk/src/common/pico_util/datetime.s
 
 # target to generate assembly for a file
-opt/pico-sdk/src/common/pico_util/pheap.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/common/pico_util/pheap.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/common/pico_util/pheap.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/common/pico_util/pheap.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/common/pico_util/pheap.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/common/pico_util/pheap.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/common/pico_util/pheap.c.s
-.PHONY : opt/pico-sdk/src/common/pico_util/pheap.c.s
+home/jake/pico-sdk/src/common/pico_util/datetime.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/common/pico_util/datetime.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/common/pico_util/datetime.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/common/pico_util/datetime.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/common/pico_util/datetime.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/common/pico_util/datetime.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/common/pico_util/datetime.c.s
+.PHONY : home/jake/pico-sdk/src/common/pico_util/datetime.c.s
 
-opt/pico-sdk/src/common/pico_util/queue.obj: opt/pico-sdk/src/common/pico_util/queue.c.obj
-.PHONY : opt/pico-sdk/src/common/pico_util/queue.obj
+home/jake/pico-sdk/src/common/pico_util/pheap.obj: home/jake/pico-sdk/src/common/pico_util/pheap.c.obj
+.PHONY : home/jake/pico-sdk/src/common/pico_util/pheap.obj
 
 # target to build an object file
-opt/pico-sdk/src/common/pico_util/queue.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/common/pico_util/queue.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/common/pico_util/queue.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/common/pico_util/queue.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/common/pico_util/queue.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/common/pico_util/queue.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/common/pico_util/queue.c.obj
-.PHONY : opt/pico-sdk/src/common/pico_util/queue.c.obj
+home/jake/pico-sdk/src/common/pico_util/pheap.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/common/pico_util/pheap.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/common/pico_util/pheap.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/common/pico_util/pheap.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/common/pico_util/pheap.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/common/pico_util/pheap.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/common/pico_util/pheap.c.obj
+.PHONY : home/jake/pico-sdk/src/common/pico_util/pheap.c.obj
 
-opt/pico-sdk/src/common/pico_util/queue.i: opt/pico-sdk/src/common/pico_util/queue.c.i
-.PHONY : opt/pico-sdk/src/common/pico_util/queue.i
+home/jake/pico-sdk/src/common/pico_util/pheap.i: home/jake/pico-sdk/src/common/pico_util/pheap.c.i
+.PHONY : home/jake/pico-sdk/src/common/pico_util/pheap.i
 
 # target to preprocess a source file
-opt/pico-sdk/src/common/pico_util/queue.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/common/pico_util/queue.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/common/pico_util/queue.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/common/pico_util/queue.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/common/pico_util/queue.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/common/pico_util/queue.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/common/pico_util/queue.c.i
-.PHONY : opt/pico-sdk/src/common/pico_util/queue.c.i
+home/jake/pico-sdk/src/common/pico_util/pheap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/common/pico_util/pheap.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/common/pico_util/pheap.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/common/pico_util/pheap.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/common/pico_util/pheap.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/common/pico_util/pheap.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/common/pico_util/pheap.c.i
+.PHONY : home/jake/pico-sdk/src/common/pico_util/pheap.c.i
 
-opt/pico-sdk/src/common/pico_util/queue.s: opt/pico-sdk/src/common/pico_util/queue.c.s
-.PHONY : opt/pico-sdk/src/common/pico_util/queue.s
+home/jake/pico-sdk/src/common/pico_util/pheap.s: home/jake/pico-sdk/src/common/pico_util/pheap.c.s
+.PHONY : home/jake/pico-sdk/src/common/pico_util/pheap.s
 
 # target to generate assembly for a file
-opt/pico-sdk/src/common/pico_util/queue.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/common/pico_util/queue.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/common/pico_util/queue.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/common/pico_util/queue.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/common/pico_util/queue.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/common/pico_util/queue.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/common/pico_util/queue.c.s
-.PHONY : opt/pico-sdk/src/common/pico_util/queue.c.s
+home/jake/pico-sdk/src/common/pico_util/pheap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/common/pico_util/pheap.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/common/pico_util/pheap.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/common/pico_util/pheap.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/common/pico_util/pheap.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/common/pico_util/pheap.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/common/pico_util/pheap.c.s
+.PHONY : home/jake/pico-sdk/src/common/pico_util/pheap.c.s
 
-opt/pico-sdk/src/rp2_common/hardware_adc/adc.obj: opt/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_adc/adc.obj
+home/jake/pico-sdk/src/common/pico_util/queue.obj: home/jake/pico-sdk/src/common/pico_util/queue.c.obj
+.PHONY : home/jake/pico-sdk/src/common/pico_util/queue.obj
 
 # target to build an object file
-opt/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+home/jake/pico-sdk/src/common/pico_util/queue.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/common/pico_util/queue.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/common/pico_util/queue.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/common/pico_util/queue.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/common/pico_util/queue.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/common/pico_util/queue.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/common/pico_util/queue.c.obj
+.PHONY : home/jake/pico-sdk/src/common/pico_util/queue.c.obj
 
-opt/pico-sdk/src/rp2_common/hardware_adc/adc.i: opt/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_adc/adc.i
+home/jake/pico-sdk/src/common/pico_util/queue.i: home/jake/pico-sdk/src/common/pico_util/queue.c.i
+.PHONY : home/jake/pico-sdk/src/common/pico_util/queue.i
 
 # target to preprocess a source file
-opt/pico-sdk/src/rp2_common/hardware_adc/adc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+home/jake/pico-sdk/src/common/pico_util/queue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/common/pico_util/queue.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/common/pico_util/queue.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/common/pico_util/queue.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/common/pico_util/queue.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/common/pico_util/queue.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/common/pico_util/queue.c.i
+.PHONY : home/jake/pico-sdk/src/common/pico_util/queue.c.i
 
-opt/pico-sdk/src/rp2_common/hardware_adc/adc.s: opt/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_adc/adc.s
+home/jake/pico-sdk/src/common/pico_util/queue.s: home/jake/pico-sdk/src/common/pico_util/queue.c.s
+.PHONY : home/jake/pico-sdk/src/common/pico_util/queue.s
 
 # target to generate assembly for a file
-opt/pico-sdk/src/rp2_common/hardware_adc/adc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+home/jake/pico-sdk/src/common/pico_util/queue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/common/pico_util/queue.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/common/pico_util/queue.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/common/pico_util/queue.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/common/pico_util/queue.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/common/pico_util/queue.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/common/pico_util/queue.c.s
+.PHONY : home/jake/pico-sdk/src/common/pico_util/queue.c.s
 
-opt/pico-sdk/src/rp2_common/hardware_claim/claim.obj: opt/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_claim/claim.obj
+home/jake/pico-sdk/src/rp2_common/hardware_adc/adc.obj: home/jake/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_adc/adc.obj
 
 # target to build an object file
-opt/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+home/jake/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 
-opt/pico-sdk/src/rp2_common/hardware_claim/claim.i: opt/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_claim/claim.i
+home/jake/pico-sdk/src/rp2_common/hardware_adc/adc.i: home/jake/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_adc/adc.i
 
 # target to preprocess a source file
-opt/pico-sdk/src/rp2_common/hardware_claim/claim.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+home/jake/pico-sdk/src/rp2_common/hardware_adc/adc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
 
-opt/pico-sdk/src/rp2_common/hardware_claim/claim.s: opt/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_claim/claim.s
+home/jake/pico-sdk/src/rp2_common/hardware_adc/adc.s: home/jake/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_adc/adc.s
 
 # target to generate assembly for a file
-opt/pico-sdk/src/rp2_common/hardware_claim/claim.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+home/jake/pico-sdk/src/rp2_common/hardware_adc/adc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
 
-opt/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: opt/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj
+home/jake/pico-sdk/src/rp2_common/hardware_claim/claim.obj: home/jake/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_claim/claim.obj
 
 # target to build an object file
-opt/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+home/jake/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 
-opt/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: opt/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_clocks/clocks.i
+home/jake/pico-sdk/src/rp2_common/hardware_claim/claim.i: home/jake/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_claim/claim.i
 
 # target to preprocess a source file
-opt/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+home/jake/pico-sdk/src/rp2_common/hardware_claim/claim.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 
-opt/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: opt/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_clocks/clocks.s
+home/jake/pico-sdk/src/rp2_common/hardware_claim/claim.s: home/jake/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_claim/claim.s
 
 # target to generate assembly for a file
-opt/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+home/jake/pico-sdk/src/rp2_common/hardware_claim/claim.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 
-opt/pico-sdk/src/rp2_common/hardware_divider/divider.obj: opt/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_divider/divider.obj
-
-# target to build an object file
-opt/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
-
-opt/pico-sdk/src/rp2_common/hardware_flash/flash.obj: opt/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_flash/flash.obj
+home/jake/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: home/jake/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj
 
 # target to build an object file
-opt/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+home/jake/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 
-opt/pico-sdk/src/rp2_common/hardware_flash/flash.i: opt/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_flash/flash.i
+home/jake/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: home/jake/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_clocks/clocks.i
 
 # target to preprocess a source file
-opt/pico-sdk/src/rp2_common/hardware_flash/flash.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+home/jake/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 
-opt/pico-sdk/src/rp2_common/hardware_flash/flash.s: opt/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_flash/flash.s
+home/jake/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: home/jake/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_clocks/clocks.s
 
 # target to generate assembly for a file
-opt/pico-sdk/src/rp2_common/hardware_flash/flash.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+home/jake/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
-opt/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: opt/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj
+home/jake/pico-sdk/src/rp2_common/hardware_divider/divider.obj: home/jake/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_divider/divider.obj
 
 # target to build an object file
-opt/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+home/jake/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 
-opt/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: opt/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_gpio/gpio.i
+home/jake/pico-sdk/src/rp2_common/hardware_flash/flash.obj: home/jake/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_flash/flash.obj
+
+# target to build an object file
+home/jake/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+
+home/jake/pico-sdk/src/rp2_common/hardware_flash/flash.i: home/jake/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_flash/flash.i
 
 # target to preprocess a source file
-opt/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+home/jake/pico-sdk/src/rp2_common/hardware_flash/flash.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
 
-opt/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: opt/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_gpio/gpio.s
+home/jake/pico-sdk/src/rp2_common/hardware_flash/flash.s: home/jake/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_flash/flash.s
 
 # target to generate assembly for a file
-opt/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+home/jake/pico-sdk/src/rp2_common/hardware_flash/flash.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 
-opt/pico-sdk/src/rp2_common/hardware_irq/irq.obj: opt/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_irq/irq.obj
+home/jake/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: home/jake/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj
 
 # target to build an object file
-opt/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+home/jake/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 
-opt/pico-sdk/src/rp2_common/hardware_irq/irq.i: opt/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_irq/irq.i
+home/jake/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: home/jake/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_gpio/gpio.i
 
 # target to preprocess a source file
-opt/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+home/jake/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
-opt/pico-sdk/src/rp2_common/hardware_irq/irq.s: opt/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_irq/irq.s
+home/jake/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: home/jake/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_gpio/gpio.s
 
 # target to generate assembly for a file
-opt/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+home/jake/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
-opt/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: opt/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj
-
-# target to build an object file
-opt/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
-
-opt/pico-sdk/src/rp2_common/hardware_pll/pll.obj: opt/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_pll/pll.obj
+home/jake/pico-sdk/src/rp2_common/hardware_irq/irq.obj: home/jake/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_irq/irq.obj
 
 # target to build an object file
-opt/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+home/jake/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 
-opt/pico-sdk/src/rp2_common/hardware_pll/pll.i: opt/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_pll/pll.i
+home/jake/pico-sdk/src/rp2_common/hardware_irq/irq.i: home/jake/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_irq/irq.i
 
 # target to preprocess a source file
-opt/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+home/jake/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
-opt/pico-sdk/src/rp2_common/hardware_pll/pll.s: opt/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_pll/pll.s
+home/jake/pico-sdk/src/rp2_common/hardware_irq/irq.s: home/jake/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_irq/irq.s
 
 # target to generate assembly for a file
-opt/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+home/jake/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
-opt/pico-sdk/src/rp2_common/hardware_sync/sync.obj: opt/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_sync/sync.obj
+home/jake/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: home/jake/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj
 
 # target to build an object file
-opt/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+home/jake/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 
-opt/pico-sdk/src/rp2_common/hardware_sync/sync.i: opt/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_sync/sync.i
+home/jake/pico-sdk/src/rp2_common/hardware_pll/pll.obj: home/jake/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_pll/pll.obj
+
+# target to build an object file
+home/jake/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+
+home/jake/pico-sdk/src/rp2_common/hardware_pll/pll.i: home/jake/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_pll/pll.i
 
 # target to preprocess a source file
-opt/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+home/jake/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 
-opt/pico-sdk/src/rp2_common/hardware_sync/sync.s: opt/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_sync/sync.s
+home/jake/pico-sdk/src/rp2_common/hardware_pll/pll.s: home/jake/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_pll/pll.s
 
 # target to generate assembly for a file
-opt/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+home/jake/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
-opt/pico-sdk/src/rp2_common/hardware_timer/timer.obj: opt/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_timer/timer.obj
+home/jake/pico-sdk/src/rp2_common/hardware_sync/sync.obj: home/jake/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_sync/sync.obj
 
 # target to build an object file
-opt/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+home/jake/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 
-opt/pico-sdk/src/rp2_common/hardware_timer/timer.i: opt/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_timer/timer.i
+home/jake/pico-sdk/src/rp2_common/hardware_sync/sync.i: home/jake/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_sync/sync.i
 
 # target to preprocess a source file
-opt/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+home/jake/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
-opt/pico-sdk/src/rp2_common/hardware_timer/timer.s: opt/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_timer/timer.s
+home/jake/pico-sdk/src/rp2_common/hardware_sync/sync.s: home/jake/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_sync/sync.s
 
 # target to generate assembly for a file
-opt/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+home/jake/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
-opt/pico-sdk/src/rp2_common/hardware_uart/uart.obj: opt/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_uart/uart.obj
+home/jake/pico-sdk/src/rp2_common/hardware_timer/timer.obj: home/jake/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_timer/timer.obj
 
 # target to build an object file
-opt/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+home/jake/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 
-opt/pico-sdk/src/rp2_common/hardware_uart/uart.i: opt/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_uart/uart.i
+home/jake/pico-sdk/src/rp2_common/hardware_timer/timer.i: home/jake/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_timer/timer.i
 
 # target to preprocess a source file
-opt/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+home/jake/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 
-opt/pico-sdk/src/rp2_common/hardware_uart/uart.s: opt/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_uart/uart.s
+home/jake/pico-sdk/src/rp2_common/hardware_timer/timer.s: home/jake/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_timer/timer.s
 
 # target to generate assembly for a file
-opt/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+home/jake/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
-opt/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: opt/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj
+home/jake/pico-sdk/src/rp2_common/hardware_uart/uart.obj: home/jake/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_uart/uart.obj
 
 # target to build an object file
-opt/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+home/jake/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 
-opt/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: opt/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_vreg/vreg.i
+home/jake/pico-sdk/src/rp2_common/hardware_uart/uart.i: home/jake/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_uart/uart.i
 
 # target to preprocess a source file
-opt/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+home/jake/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
-opt/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: opt/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_vreg/vreg.s
+home/jake/pico-sdk/src/rp2_common/hardware_uart/uart.s: home/jake/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_uart/uart.s
 
 # target to generate assembly for a file
-opt/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+home/jake/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
-opt/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: opt/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj
+home/jake/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: home/jake/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj
 
 # target to build an object file
-opt/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+home/jake/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 
-opt/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: opt/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i
+home/jake/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: home/jake/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_vreg/vreg.i
 
 # target to preprocess a source file
-opt/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+home/jake/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 
-opt/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: opt/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s
+home/jake/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: home/jake/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_vreg/vreg.s
 
 # target to generate assembly for a file
-opt/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+home/jake/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
-opt/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: opt/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj
+home/jake/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: home/jake/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj
 
 # target to build an object file
-opt/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+home/jake/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 
-opt/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: opt/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_xosc/xosc.i
+home/jake/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: home/jake/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i
 
 # target to preprocess a source file
-opt/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+home/jake/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 
-opt/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: opt/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_xosc/xosc.s
+home/jake/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: home/jake/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s
 
 # target to generate assembly for a file
-opt/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+home/jake/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
-opt/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: opt/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj
-
-# target to build an object file
-opt/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-
-opt/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: opt/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj
+home/jake/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: home/jake/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj
 
 # target to build an object file
-opt/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+home/jake/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 
-opt/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: opt/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i
+home/jake/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: home/jake/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_xosc/xosc.i
 
 # target to preprocess a source file
-opt/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+home/jake/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 
-opt/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: opt/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s
+home/jake/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: home/jake/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_xosc/xosc.s
 
 # target to generate assembly for a file
-opt/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+home/jake/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
-opt/pico-sdk/src/rp2_common/pico_divider/divider.obj: opt/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_divider/divider.obj
-
-# target to build an object file
-opt/pico-sdk/src/rp2_common/pico_divider/divider.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-
-opt/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: opt/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj
+home/jake/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: home/jake/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj
 
 # target to build an object file
-opt/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+home/jake/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 
-opt/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj: opt/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj
+home/jake/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: home/jake/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj
 
 # target to build an object file
-opt/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+home/jake/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 
-opt/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: opt/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/pico_double/double_init_rom.i
+home/jake/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: home/jake/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i
 
 # target to preprocess a source file
-opt/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+home/jake/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
-opt/pico-sdk/src/rp2_common/pico_double/double_init_rom.s: opt/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/pico_double/double_init_rom.s
+home/jake/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: home/jake/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s
 
 # target to generate assembly for a file
-opt/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+home/jake/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
-opt/pico-sdk/src/rp2_common/pico_double/double_math.obj: opt/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_double/double_math.obj
+home/jake/pico-sdk/src/rp2_common/pico_divider/divider.obj: home/jake/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_divider/divider.obj
 
 # target to build an object file
-opt/pico-sdk/src/rp2_common/pico_double/double_math.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+home/jake/pico-sdk/src/rp2_common/pico_divider/divider.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 
-opt/pico-sdk/src/rp2_common/pico_double/double_math.i: opt/pico-sdk/src/rp2_common/pico_double/double_math.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/pico_double/double_math.i
+home/jake/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: home/jake/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj
+
+# target to build an object file
+home/jake/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+
+home/jake/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj: home/jake/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj
+
+# target to build an object file
+home/jake/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+
+home/jake/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: home/jake/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_double/double_init_rom.i
 
 # target to preprocess a source file
-opt/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_double/double_math.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_double/double_math.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_double/double_math.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_double/double_math.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_double/double_math.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_double/double_math.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+home/jake/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 
-opt/pico-sdk/src/rp2_common/pico_double/double_math.s: opt/pico-sdk/src/rp2_common/pico_double/double_math.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/pico_double/double_math.s
+home/jake/pico-sdk/src/rp2_common/pico_double/double_init_rom.s: home/jake/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_double/double_init_rom.s
 
 # target to generate assembly for a file
-opt/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_double/double_math.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_double/double_math.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_double/double_math.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_double/double_math.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_double/double_math.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_double/double_math.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+home/jake/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 
-opt/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj: opt/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj
-
-# target to build an object file
-opt/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-
-opt/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj: opt/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj
+home/jake/pico-sdk/src/rp2_common/pico_double/double_math.obj: home/jake/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_double/double_math.obj
 
 # target to build an object file
-opt/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+home/jake/pico-sdk/src/rp2_common/pico_double/double_math.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 
-opt/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i: opt/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i
+home/jake/pico-sdk/src/rp2_common/pico_double/double_math.i: home/jake/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_double/double_math.i
 
 # target to preprocess a source file
-opt/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+home/jake/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
-opt/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s: opt/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s
+home/jake/pico-sdk/src/rp2_common/pico_double/double_math.s: home/jake/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_double/double_math.s
 
 # target to generate assembly for a file
-opt/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+home/jake/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
-opt/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: opt/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj
-
-# target to build an object file
-opt/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-
-opt/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: opt/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj
+home/jake/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj: home/jake/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj
 
 # target to build an object file
-opt/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+home/jake/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 
-opt/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: opt/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/pico_float/float_init_rom.i
+home/jake/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj: home/jake/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj
+
+# target to build an object file
+home/jake/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+
+home/jake/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i: home/jake/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i
 
 # target to preprocess a source file
-opt/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+home/jake/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
 
-opt/pico-sdk/src/rp2_common/pico_float/float_init_rom.s: opt/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/pico_float/float_init_rom.s
+home/jake/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s: home/jake/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s
 
 # target to generate assembly for a file
-opt/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+home/jake/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
-opt/pico-sdk/src/rp2_common/pico_float/float_math.obj: opt/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_float/float_math.obj
+home/jake/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: home/jake/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj
 
 # target to build an object file
-opt/pico-sdk/src/rp2_common/pico_float/float_math.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+home/jake/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 
-opt/pico-sdk/src/rp2_common/pico_float/float_math.i: opt/pico-sdk/src/rp2_common/pico_float/float_math.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/pico_float/float_math.i
+home/jake/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: home/jake/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj
+
+# target to build an object file
+home/jake/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+
+home/jake/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: home/jake/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_float/float_init_rom.i
 
 # target to preprocess a source file
-opt/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_float/float_math.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_float/float_math.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_float/float_math.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_float/float_math.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_float/float_math.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_float/float_math.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+home/jake/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 
-opt/pico-sdk/src/rp2_common/pico_float/float_math.s: opt/pico-sdk/src/rp2_common/pico_float/float_math.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/pico_float/float_math.s
+home/jake/pico-sdk/src/rp2_common/pico_float/float_init_rom.s: home/jake/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_float/float_init_rom.s
 
 # target to generate assembly for a file
-opt/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_float/float_math.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_float/float_math.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_float/float_math.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_float/float_math.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_float/float_math.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_float/float_math.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+home/jake/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 
-opt/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj: opt/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj
-
-# target to build an object file
-opt/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-
-opt/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: opt/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj
+home/jake/pico-sdk/src/rp2_common/pico_float/float_math.obj: home/jake/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_float/float_math.obj
 
 # target to build an object file
-opt/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+home/jake/pico-sdk/src/rp2_common/pico_float/float_math.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 
-opt/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: opt/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj
-
-# target to build an object file
-opt/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
-
-opt/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: opt/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i
+home/jake/pico-sdk/src/rp2_common/pico_float/float_math.i: home/jake/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_float/float_math.i
 
 # target to preprocess a source file
-opt/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+home/jake/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
-opt/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: opt/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s
+home/jake/pico-sdk/src/rp2_common/pico_float/float_math.s: home/jake/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_float/float_math.s
 
 # target to generate assembly for a file
-opt/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+home/jake/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
-opt/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: opt/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj
-
-# target to build an object file
-opt/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-
-opt/pico-sdk/src/rp2_common/pico_multicore/multicore.obj: opt/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_multicore/multicore.obj
+home/jake/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj: home/jake/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj
 
 # target to build an object file
-opt/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+home/jake/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 
-opt/pico-sdk/src/rp2_common/pico_multicore/multicore.i: opt/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/pico_multicore/multicore.i
+home/jake/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: home/jake/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj
+
+# target to build an object file
+home/jake/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+
+home/jake/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: home/jake/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj
+
+# target to build an object file
+home/jake/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+
+home/jake/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: home/jake/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i
 
 # target to preprocess a source file
-opt/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
+home/jake/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 
-opt/pico-sdk/src/rp2_common/pico_multicore/multicore.s: opt/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/pico_multicore/multicore.s
+home/jake/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: home/jake/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s
 
 # target to generate assembly for a file
-opt/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
+home/jake/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 
-opt/pico-sdk/src/rp2_common/pico_platform/platform.obj: opt/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_platform/platform.obj
+home/jake/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: home/jake/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj
 
 # target to build an object file
-opt/pico-sdk/src/rp2_common/pico_platform/platform.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+home/jake/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 
-opt/pico-sdk/src/rp2_common/pico_platform/platform.i: opt/pico-sdk/src/rp2_common/pico_platform/platform.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/pico_platform/platform.i
+home/jake/pico-sdk/src/rp2_common/pico_multicore/multicore.obj: home/jake/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_multicore/multicore.obj
+
+# target to build an object file
+home/jake/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+
+home/jake/pico-sdk/src/rp2_common/pico_multicore/multicore.i: home/jake/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_multicore/multicore.i
 
 # target to preprocess a source file
-opt/pico-sdk/src/rp2_common/pico_platform/platform.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_platform/platform.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_platform/platform.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_platform/platform.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_platform/platform.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_platform/platform.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_platform/platform.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+home/jake/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
 
-opt/pico-sdk/src/rp2_common/pico_platform/platform.s: opt/pico-sdk/src/rp2_common/pico_platform/platform.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/pico_platform/platform.s
+home/jake/pico-sdk/src/rp2_common/pico_multicore/multicore.s: home/jake/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_multicore/multicore.s
 
 # target to generate assembly for a file
-opt/pico-sdk/src/rp2_common/pico_platform/platform.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_platform/platform.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_platform/platform.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_platform/platform.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_platform/platform.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_platform/platform.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_platform/platform.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+home/jake/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
 
-opt/pico-sdk/src/rp2_common/pico_printf/printf.obj: opt/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_printf/printf.obj
+home/jake/pico-sdk/src/rp2_common/pico_platform/platform.obj: home/jake/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_platform/platform.obj
 
 # target to build an object file
-opt/pico-sdk/src/rp2_common/pico_printf/printf.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+home/jake/pico-sdk/src/rp2_common/pico_platform/platform.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 
-opt/pico-sdk/src/rp2_common/pico_printf/printf.i: opt/pico-sdk/src/rp2_common/pico_printf/printf.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/pico_printf/printf.i
+home/jake/pico-sdk/src/rp2_common/pico_platform/platform.i: home/jake/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_platform/platform.i
 
 # target to preprocess a source file
-opt/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_printf/printf.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_printf/printf.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_printf/printf.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_printf/printf.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_printf/printf.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_printf/printf.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+home/jake/pico-sdk/src/rp2_common/pico_platform/platform.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 
-opt/pico-sdk/src/rp2_common/pico_printf/printf.s: opt/pico-sdk/src/rp2_common/pico_printf/printf.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/pico_printf/printf.s
+home/jake/pico-sdk/src/rp2_common/pico_platform/platform.s: home/jake/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_platform/platform.s
 
 # target to generate assembly for a file
-opt/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_printf/printf.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_printf/printf.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_printf/printf.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_printf/printf.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_printf/printf.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_printf/printf.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+home/jake/pico-sdk/src/rp2_common/pico_platform/platform.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 
-opt/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: opt/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_runtime/runtime.obj
+home/jake/pico-sdk/src/rp2_common/pico_printf/printf.obj: home/jake/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_printf/printf.obj
 
 # target to build an object file
-opt/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+home/jake/pico-sdk/src/rp2_common/pico_printf/printf.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 
-opt/pico-sdk/src/rp2_common/pico_runtime/runtime.i: opt/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/pico_runtime/runtime.i
+home/jake/pico-sdk/src/rp2_common/pico_printf/printf.i: home/jake/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_printf/printf.i
 
 # target to preprocess a source file
-opt/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+home/jake/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
-opt/pico-sdk/src/rp2_common/pico_runtime/runtime.s: opt/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/pico_runtime/runtime.s
+home/jake/pico-sdk/src/rp2_common/pico_printf/printf.s: home/jake/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_printf/printf.s
 
 # target to generate assembly for a file
-opt/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+home/jake/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
-opt/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj: opt/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj
+home/jake/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: home/jake/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_runtime/runtime.obj
 
 # target to build an object file
-opt/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+home/jake/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 
-opt/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: opt/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i
+home/jake/pico-sdk/src/rp2_common/pico_runtime/runtime.i: home/jake/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_runtime/runtime.i
 
 # target to preprocess a source file
-opt/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+home/jake/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
-opt/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s: opt/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s
+home/jake/pico-sdk/src/rp2_common/pico_runtime/runtime.s: home/jake/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_runtime/runtime.s
 
 # target to generate assembly for a file
-opt/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+home/jake/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
-opt/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: opt/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj
-
-# target to build an object file
-opt/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-
-opt/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj: opt/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj
+home/jake/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj: home/jake/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj
 
 # target to build an object file
-opt/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+home/jake/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 
-opt/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: opt/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
-.PHONY : opt/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i
+home/jake/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: home/jake/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i
 
 # target to preprocess a source file
-opt/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
-.PHONY : opt/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+home/jake/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 
-opt/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s: opt/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
-.PHONY : opt/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s
+home/jake/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s: home/jake/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s
 
 # target to generate assembly for a file
-opt/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
-.PHONY : opt/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+home/jake/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 
-opt/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: opt/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_stdio/stdio.obj
+home/jake/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: home/jake/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj
 
 # target to build an object file
-opt/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+home/jake/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-opt/pico-sdk/src/rp2_common/pico_stdio/stdio.i: opt/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/pico_stdio/stdio.i
-
-# target to preprocess a source file
-opt/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
-
-opt/pico-sdk/src/rp2_common/pico_stdio/stdio.s: opt/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/pico_stdio/stdio.s
-
-# target to generate assembly for a file
-opt/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
-
-opt/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: opt/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj
+home/jake/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj: home/jake/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj
 
 # target to build an object file
-opt/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+home/jake/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 
-opt/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: opt/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i
+home/jake/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: home/jake/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i
 
 # target to preprocess a source file
-opt/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+home/jake/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 
-opt/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: opt/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s
+home/jake/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s: home/jake/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s
 
 # target to generate assembly for a file
-opt/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+home/jake/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 
-opt/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj: opt/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj
+home/jake/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: home/jake/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_stdio/stdio.obj
 
 # target to build an object file
-opt/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+home/jake/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
-opt/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i: opt/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i
+home/jake/pico-sdk/src/rp2_common/pico_stdio/stdio.i: home/jake/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_stdio/stdio.i
 
 # target to preprocess a source file
-opt/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+home/jake/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
-opt/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s: opt/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s
+home/jake/pico-sdk/src/rp2_common/pico_stdio/stdio.s: home/jake/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_stdio/stdio.s
 
 # target to generate assembly for a file
-opt/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+home/jake/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj: opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj
+home/jake/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: home/jake/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj
 
 # target to build an object file
-opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+home/jake/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
-opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i: opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i
+home/jake/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: home/jake/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i
 
 # target to preprocess a source file
-opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+home/jake/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 
-opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s: opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s
+home/jake/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: home/jake/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s
 
 # target to generate assembly for a file
-opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+home/jake/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
-opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj: opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj
+home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj: home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj
 
 # target to build an object file
-opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
 
-opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i: opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i
+home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i: home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i
 
 # target to preprocess a source file
-opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 
-opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s: opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s
+home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s: home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s
 
 # target to generate assembly for a file
-opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
 
-opt/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: opt/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj
+home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj: home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj
 
 # target to build an object file
-opt/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
 
-opt/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: opt/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i
+home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i: home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i
 
 # target to preprocess a source file
-opt/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
 
-opt/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: opt/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s
+home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s: home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s
 
 # target to generate assembly for a file
-opt/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/opt/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/opt/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
 
-opt/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj: opt/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj
+home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj: home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj
 
 # target to build an object file
-opt/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-.PHONY : opt/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
 
-opt/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: opt/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i
+home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i: home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i
 
 # target to preprocess a source file
-opt/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
-.PHONY : opt/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
 
-opt/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s: opt/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s
+home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s: home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s
 
 # target to generate assembly for a file
-opt/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/opt/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/opt/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/opt/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/opt/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
-.PHONY : opt/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+
+home/jake/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: home/jake/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj
+
+# target to build an object file
+home/jake/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+
+home/jake/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: home/jake/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i
+
+# target to preprocess a source file
+home/jake/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+
+home/jake/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: home/jake/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s
+
+# target to generate assembly for a file
+home/jake/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/home/jake/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/home/jake/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+
+home/jake/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj: home/jake/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj
+
+# target to build an object file
+home/jake/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+
+home/jake/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: home/jake/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i
+
+# target to preprocess a source file
+home/jake/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+
+home/jake/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s: home/jake/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s
+
+# target to generate assembly for a file
+home/jake/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/home/jake/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multicore.dir/build.make CMakeFiles/multicore.dir/home/jake/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverless.dir/build.make CMakeFiles/serverless.dir/home/jake/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/partition.dir/build.make CMakeFiles/partition.dir/home/jake/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+.PHONY : home/jake/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
 src/blink.obj: src/blink.c.obj
 .PHONY : src/blink.obj
@@ -2748,197 +2748,197 @@ help:
 	@echo "... partition"
 	@echo "... serial"
 	@echo "... serverless"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/class/video/video_device.obj"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/class/video/video_device.i"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/class/video/video_device.s"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/device/usbd.obj"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/device/usbd.i"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/device/usbd.s"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/device/usbd_control.obj"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/device/usbd_control.i"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/device/usbd_control.s"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/tusb.obj"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/tusb.i"
-	@echo "... opt/pico-sdk/lib/tinyusb/src/tusb.s"
-	@echo "... opt/pico-sdk/src/common/pico_sync/critical_section.obj"
-	@echo "... opt/pico-sdk/src/common/pico_sync/critical_section.i"
-	@echo "... opt/pico-sdk/src/common/pico_sync/critical_section.s"
-	@echo "... opt/pico-sdk/src/common/pico_sync/lock_core.obj"
-	@echo "... opt/pico-sdk/src/common/pico_sync/lock_core.i"
-	@echo "... opt/pico-sdk/src/common/pico_sync/lock_core.s"
-	@echo "... opt/pico-sdk/src/common/pico_sync/mutex.obj"
-	@echo "... opt/pico-sdk/src/common/pico_sync/mutex.i"
-	@echo "... opt/pico-sdk/src/common/pico_sync/mutex.s"
-	@echo "... opt/pico-sdk/src/common/pico_sync/sem.obj"
-	@echo "... opt/pico-sdk/src/common/pico_sync/sem.i"
-	@echo "... opt/pico-sdk/src/common/pico_sync/sem.s"
-	@echo "... opt/pico-sdk/src/common/pico_time/time.obj"
-	@echo "... opt/pico-sdk/src/common/pico_time/time.i"
-	@echo "... opt/pico-sdk/src/common/pico_time/time.s"
-	@echo "... opt/pico-sdk/src/common/pico_time/timeout_helper.obj"
-	@echo "... opt/pico-sdk/src/common/pico_time/timeout_helper.i"
-	@echo "... opt/pico-sdk/src/common/pico_time/timeout_helper.s"
-	@echo "... opt/pico-sdk/src/common/pico_util/datetime.obj"
-	@echo "... opt/pico-sdk/src/common/pico_util/datetime.i"
-	@echo "... opt/pico-sdk/src/common/pico_util/datetime.s"
-	@echo "... opt/pico-sdk/src/common/pico_util/pheap.obj"
-	@echo "... opt/pico-sdk/src/common/pico_util/pheap.i"
-	@echo "... opt/pico-sdk/src/common/pico_util/pheap.s"
-	@echo "... opt/pico-sdk/src/common/pico_util/queue.obj"
-	@echo "... opt/pico-sdk/src/common/pico_util/queue.i"
-	@echo "... opt/pico-sdk/src/common/pico_util/queue.s"
-	@echo "... opt/pico-sdk/src/rp2_common/hardware_adc/adc.obj"
-	@echo "... opt/pico-sdk/src/rp2_common/hardware_adc/adc.i"
-	@echo "... opt/pico-sdk/src/rp2_common/hardware_adc/adc.s"
-	@echo "... opt/pico-sdk/src/rp2_common/hardware_claim/claim.obj"
-	@echo "... opt/pico-sdk/src/rp2_common/hardware_claim/claim.i"
-	@echo "... opt/pico-sdk/src/rp2_common/hardware_claim/claim.s"
-	@echo "... opt/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj"
-	@echo "... opt/pico-sdk/src/rp2_common/hardware_clocks/clocks.i"
-	@echo "... opt/pico-sdk/src/rp2_common/hardware_clocks/clocks.s"
-	@echo "... opt/pico-sdk/src/rp2_common/hardware_divider/divider.obj"
-	@echo "... opt/pico-sdk/src/rp2_common/hardware_flash/flash.obj"
-	@echo "... opt/pico-sdk/src/rp2_common/hardware_flash/flash.i"
-	@echo "... opt/pico-sdk/src/rp2_common/hardware_flash/flash.s"
-	@echo "... opt/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj"
-	@echo "... opt/pico-sdk/src/rp2_common/hardware_gpio/gpio.i"
-	@echo "... opt/pico-sdk/src/rp2_common/hardware_gpio/gpio.s"
-	@echo "... opt/pico-sdk/src/rp2_common/hardware_irq/irq.obj"
-	@echo "... opt/pico-sdk/src/rp2_common/hardware_irq/irq.i"
-	@echo "... opt/pico-sdk/src/rp2_common/hardware_irq/irq.s"
-	@echo "... opt/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj"
-	@echo "... opt/pico-sdk/src/rp2_common/hardware_pll/pll.obj"
-	@echo "... opt/pico-sdk/src/rp2_common/hardware_pll/pll.i"
-	@echo "... opt/pico-sdk/src/rp2_common/hardware_pll/pll.s"
-	@echo "... opt/pico-sdk/src/rp2_common/hardware_sync/sync.obj"
-	@echo "... opt/pico-sdk/src/rp2_common/hardware_sync/sync.i"
-	@echo "... opt/pico-sdk/src/rp2_common/hardware_sync/sync.s"
-	@echo "... opt/pico-sdk/src/rp2_common/hardware_timer/timer.obj"
-	@echo "... opt/pico-sdk/src/rp2_common/hardware_timer/timer.i"
-	@echo "... opt/pico-sdk/src/rp2_common/hardware_timer/timer.s"
-	@echo "... opt/pico-sdk/src/rp2_common/hardware_uart/uart.obj"
-	@echo "... opt/pico-sdk/src/rp2_common/hardware_uart/uart.i"
-	@echo "... opt/pico-sdk/src/rp2_common/hardware_uart/uart.s"
-	@echo "... opt/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj"
-	@echo "... opt/pico-sdk/src/rp2_common/hardware_vreg/vreg.i"
-	@echo "... opt/pico-sdk/src/rp2_common/hardware_vreg/vreg.s"
-	@echo "... opt/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj"
-	@echo "... opt/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i"
-	@echo "... opt/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s"
-	@echo "... opt/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj"
-	@echo "... opt/pico-sdk/src/rp2_common/hardware_xosc/xosc.i"
-	@echo "... opt/pico-sdk/src/rp2_common/hardware_xosc/xosc.s"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_divider/divider.obj"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_double/double_init_rom.i"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_double/double_init_rom.s"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_double/double_math.obj"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_double/double_math.i"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_double/double_math.s"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_float/float_init_rom.i"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_float/float_init_rom.s"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_float/float_math.obj"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_float/float_math.i"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_float/float_math.s"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_multicore/multicore.obj"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_multicore/multicore.i"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_multicore/multicore.s"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_platform/platform.obj"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_platform/platform.i"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_platform/platform.s"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_printf/printf.obj"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_printf/printf.i"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_printf/printf.s"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_runtime/runtime.obj"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_runtime/runtime.i"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_runtime/runtime.s"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_stdio/stdio.obj"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_stdio/stdio.i"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_stdio/stdio.s"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i"
-	@echo "... opt/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/class/video/video_device.obj"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/class/video/video_device.i"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/class/video/video_device.s"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/device/usbd.obj"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/device/usbd.i"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/device/usbd.s"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/device/usbd_control.obj"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/device/usbd_control.i"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/device/usbd_control.s"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/tusb.obj"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/tusb.i"
+	@echo "... home/jake/pico-sdk/lib/tinyusb/src/tusb.s"
+	@echo "... home/jake/pico-sdk/src/common/pico_sync/critical_section.obj"
+	@echo "... home/jake/pico-sdk/src/common/pico_sync/critical_section.i"
+	@echo "... home/jake/pico-sdk/src/common/pico_sync/critical_section.s"
+	@echo "... home/jake/pico-sdk/src/common/pico_sync/lock_core.obj"
+	@echo "... home/jake/pico-sdk/src/common/pico_sync/lock_core.i"
+	@echo "... home/jake/pico-sdk/src/common/pico_sync/lock_core.s"
+	@echo "... home/jake/pico-sdk/src/common/pico_sync/mutex.obj"
+	@echo "... home/jake/pico-sdk/src/common/pico_sync/mutex.i"
+	@echo "... home/jake/pico-sdk/src/common/pico_sync/mutex.s"
+	@echo "... home/jake/pico-sdk/src/common/pico_sync/sem.obj"
+	@echo "... home/jake/pico-sdk/src/common/pico_sync/sem.i"
+	@echo "... home/jake/pico-sdk/src/common/pico_sync/sem.s"
+	@echo "... home/jake/pico-sdk/src/common/pico_time/time.obj"
+	@echo "... home/jake/pico-sdk/src/common/pico_time/time.i"
+	@echo "... home/jake/pico-sdk/src/common/pico_time/time.s"
+	@echo "... home/jake/pico-sdk/src/common/pico_time/timeout_helper.obj"
+	@echo "... home/jake/pico-sdk/src/common/pico_time/timeout_helper.i"
+	@echo "... home/jake/pico-sdk/src/common/pico_time/timeout_helper.s"
+	@echo "... home/jake/pico-sdk/src/common/pico_util/datetime.obj"
+	@echo "... home/jake/pico-sdk/src/common/pico_util/datetime.i"
+	@echo "... home/jake/pico-sdk/src/common/pico_util/datetime.s"
+	@echo "... home/jake/pico-sdk/src/common/pico_util/pheap.obj"
+	@echo "... home/jake/pico-sdk/src/common/pico_util/pheap.i"
+	@echo "... home/jake/pico-sdk/src/common/pico_util/pheap.s"
+	@echo "... home/jake/pico-sdk/src/common/pico_util/queue.obj"
+	@echo "... home/jake/pico-sdk/src/common/pico_util/queue.i"
+	@echo "... home/jake/pico-sdk/src/common/pico_util/queue.s"
+	@echo "... home/jake/pico-sdk/src/rp2_common/hardware_adc/adc.obj"
+	@echo "... home/jake/pico-sdk/src/rp2_common/hardware_adc/adc.i"
+	@echo "... home/jake/pico-sdk/src/rp2_common/hardware_adc/adc.s"
+	@echo "... home/jake/pico-sdk/src/rp2_common/hardware_claim/claim.obj"
+	@echo "... home/jake/pico-sdk/src/rp2_common/hardware_claim/claim.i"
+	@echo "... home/jake/pico-sdk/src/rp2_common/hardware_claim/claim.s"
+	@echo "... home/jake/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj"
+	@echo "... home/jake/pico-sdk/src/rp2_common/hardware_clocks/clocks.i"
+	@echo "... home/jake/pico-sdk/src/rp2_common/hardware_clocks/clocks.s"
+	@echo "... home/jake/pico-sdk/src/rp2_common/hardware_divider/divider.obj"
+	@echo "... home/jake/pico-sdk/src/rp2_common/hardware_flash/flash.obj"
+	@echo "... home/jake/pico-sdk/src/rp2_common/hardware_flash/flash.i"
+	@echo "... home/jake/pico-sdk/src/rp2_common/hardware_flash/flash.s"
+	@echo "... home/jake/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj"
+	@echo "... home/jake/pico-sdk/src/rp2_common/hardware_gpio/gpio.i"
+	@echo "... home/jake/pico-sdk/src/rp2_common/hardware_gpio/gpio.s"
+	@echo "... home/jake/pico-sdk/src/rp2_common/hardware_irq/irq.obj"
+	@echo "... home/jake/pico-sdk/src/rp2_common/hardware_irq/irq.i"
+	@echo "... home/jake/pico-sdk/src/rp2_common/hardware_irq/irq.s"
+	@echo "... home/jake/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj"
+	@echo "... home/jake/pico-sdk/src/rp2_common/hardware_pll/pll.obj"
+	@echo "... home/jake/pico-sdk/src/rp2_common/hardware_pll/pll.i"
+	@echo "... home/jake/pico-sdk/src/rp2_common/hardware_pll/pll.s"
+	@echo "... home/jake/pico-sdk/src/rp2_common/hardware_sync/sync.obj"
+	@echo "... home/jake/pico-sdk/src/rp2_common/hardware_sync/sync.i"
+	@echo "... home/jake/pico-sdk/src/rp2_common/hardware_sync/sync.s"
+	@echo "... home/jake/pico-sdk/src/rp2_common/hardware_timer/timer.obj"
+	@echo "... home/jake/pico-sdk/src/rp2_common/hardware_timer/timer.i"
+	@echo "... home/jake/pico-sdk/src/rp2_common/hardware_timer/timer.s"
+	@echo "... home/jake/pico-sdk/src/rp2_common/hardware_uart/uart.obj"
+	@echo "... home/jake/pico-sdk/src/rp2_common/hardware_uart/uart.i"
+	@echo "... home/jake/pico-sdk/src/rp2_common/hardware_uart/uart.s"
+	@echo "... home/jake/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj"
+	@echo "... home/jake/pico-sdk/src/rp2_common/hardware_vreg/vreg.i"
+	@echo "... home/jake/pico-sdk/src/rp2_common/hardware_vreg/vreg.s"
+	@echo "... home/jake/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj"
+	@echo "... home/jake/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i"
+	@echo "... home/jake/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s"
+	@echo "... home/jake/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj"
+	@echo "... home/jake/pico-sdk/src/rp2_common/hardware_xosc/xosc.i"
+	@echo "... home/jake/pico-sdk/src/rp2_common/hardware_xosc/xosc.s"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_divider/divider.obj"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_double/double_init_rom.i"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_double/double_init_rom.s"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_double/double_math.obj"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_double/double_math.i"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_double/double_math.s"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_float/float_init_rom.i"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_float/float_init_rom.s"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_float/float_math.obj"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_float/float_math.i"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_float/float_math.s"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_multicore/multicore.obj"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_multicore/multicore.i"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_multicore/multicore.s"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_platform/platform.obj"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_platform/platform.i"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_platform/platform.s"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_printf/printf.obj"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_printf/printf.i"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_printf/printf.s"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_runtime/runtime.obj"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_runtime/runtime.i"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_runtime/runtime.s"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_stdio/stdio.obj"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_stdio/stdio.i"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_stdio/stdio.s"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i"
+	@echo "... home/jake/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s"
 	@echo "... src/blink.obj"
 	@echo "... src/blink.i"
 	@echo "... src/blink.s"

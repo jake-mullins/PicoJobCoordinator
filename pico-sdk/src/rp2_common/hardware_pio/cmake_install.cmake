@@ -1,4 +1,4 @@
-# Install script for directory: /opt/pico-sdk/src/rp2_common/hardware_pio
+# Install script for directory: /home/jake/pico-sdk/src/rp2_common/hardware_pio
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

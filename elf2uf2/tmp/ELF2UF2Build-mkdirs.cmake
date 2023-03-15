@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "/opt/pico-sdk/tools/elf2uf2"
-  "/home/jake/serverless/elf2uf2"
-  "/home/jake/serverless/elf2uf2"
-  "/home/jake/serverless/elf2uf2/tmp"
-  "/home/jake/serverless/elf2uf2/src/ELF2UF2Build-stamp"
-  "/home/jake/serverless/elf2uf2/src"
-  "/home/jake/serverless/elf2uf2/src/ELF2UF2Build-stamp"
+  "/home/jake/pico-sdk/tools/elf2uf2"
+  "/home/jake/PicoJobCoordinator/elf2uf2"
+  "/home/jake/PicoJobCoordinator/elf2uf2"
+  "/home/jake/PicoJobCoordinator/elf2uf2/tmp"
+  "/home/jake/PicoJobCoordinator/elf2uf2/src/ELF2UF2Build-stamp"
+  "/home/jake/PicoJobCoordinator/elf2uf2/src"
+  "/home/jake/PicoJobCoordinator/elf2uf2/src/ELF2UF2Build-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/home/jake/serverless/elf2uf2/src/ELF2UF2Build-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/home/jake/PicoJobCoordinator/elf2uf2/src/ELF2UF2Build-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/home/jake/serverless/elf2uf2/src/ELF2UF2Build-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/home/jake/PicoJobCoordinator/elf2uf2/src/ELF2UF2Build-stamp${cfgdir}") # cfgdir has leading slash
 endif()
